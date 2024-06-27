@@ -25,17 +25,17 @@ $unique_id = wp_unique_id('p-');
             <h2><?= __('Simple Calculator', 'simple-calculator') ?></h2>
             <div class='simple-calculator__inner-box'>
                 <p class='simple-calculator__label'><?= __('A', 'simple-calculator') ?></p>
-                <input type="number" placeholder="<?= __('Enter a number...', 'simple-calculator') ?>" data-wp-on-keyup="actions.a">
+                <input type="number" placeholder="<?= __('Enter a number...', 'simple-calculator') ?>" data-wp-on--keyup="actions.a">
             </div>
             <div class='simple-calculator__inner-box'>
                 <p class='simple-calculator__label'><?= __('B', 'simple-calculator') ?></p>
-                <input type="number" placeholder="<?= __('Enter a number...', 'simple-calculator') ?>" data-wp-on-keyup="actions.b">
+                <input type="number" placeholder="<?= __('Enter a number...', 'simple-calculator') ?>" data-wp-on--keyup="actions.b">
             </div>
         </div>
         <div class='simple-calculator__result-container'>
             <h2><?= __('Result:', 'simple-calculator') ?></h2>
             <div class='simple-calculator__inner-box'>
-                <p class='simple-calculator__output' data-wp-text="context.c"></p>
+                <p class='simple-calculator__output' data-wp--text="context.c"></p>
             </div>
         </div>
     </div>
